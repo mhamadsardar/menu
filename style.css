@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Comfortaa:wght@300&family=Exo+2:wght@200&family=Handjet&family=Lobster&family=Noto+Sans+Arabic:wght@600&family=Paytone+One&family=Preahvihear&family=Rubik:wght@300&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #6F61C0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(213, 255, 228, .9);
+
+    text-align: center;
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+    border-radius: 30px;
+    margin: 10px;
+   
+
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    height: 65px;
+    overflow-x: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+ 
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 1ft));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+
+.item {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.item img {
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+/* 
+.navbar  :hover {
+    color: red;
+   
+}
+.navbar :not(:hover){
+    color:#382666;
+} */
+.nav-link.active {
+    color: #ff0000; /* Change this to your desired color */
+  }
+
+h1 {
+    display: inline-flex;
+    align-item: center;
+    justify-content: center;
+    margin-bottom: 7px;
+    border-bottom: #322356 solid 1px;
+    font-weight: 400;
+    
+}
+
+nav h1{
+    color: #000000;
+}
+.logo {
+    position: sticky;
+    right: 7px;
+    bottom: 10px;
+}
+
+
+
+
+.sticky-logos {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-logos img {
+    width: 40px;
+    /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    color: black;
+}
+
+.gg-arrow-up-r{
+color: red;
+}
